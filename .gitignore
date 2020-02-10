@@ -1,0 +1,32 @@
+# Created by https://www.gitignore.io/api/terraform,visualstudiocode
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# arquivos de desenvolvimento
+.env
+**/manifests/*
+
+
+# End of https://www.gitignore.io/api/terraform,visualstudiocode
